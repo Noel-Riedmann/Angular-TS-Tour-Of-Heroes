@@ -5,7 +5,7 @@ Getting Started
 To run the Tour of Heroes application locally, follow these steps:
 
 Clone the repository:
-git clone https://github.com/your-username/angular-tour-of-heroes.git
+git clone https://github.com/Noel-Riedmann/Angular-TS-Tour-Of-Heroes
 
 Change to the project directory:
 cd angular-tour-of-heroes
