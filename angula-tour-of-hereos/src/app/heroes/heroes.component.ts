@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Hero } from '../hero';
+import { HEROES } from 'c:/Users/noel1/Desktop/AngularJS/angula-tour-of-hereos/src/app/mock-heroes';
 
 @Component({
   selector: 'app-heroes',
@@ -11,4 +12,12 @@ export class HeroesComponent {
     id: 0,
     name: 'Windstorm'
   };
+
+  heroes = HEROES;
+
+
+  selectedHero?: Hero;
+  onSelect(hero: Hero): void {
+    this.selectedHero = hero;
+  }
 }
